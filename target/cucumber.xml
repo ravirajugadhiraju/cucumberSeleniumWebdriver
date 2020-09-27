@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="82.683931">
+<testcase classname="search and place order for Vegetabels" name="Search for items and validte results" time="51.735825">
+<system-out><![CDATA[Given user is on greencart landing page.....................................passed
+When user serarched for Cucumber vegetable..................................passed
+Then Cucumber results1 are displayed........................................passed
+And add vestible to cart....................................................passed
+And close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="search and place order for Vegetabels" name="Search for items and validte results 2" time="30.948106">
+<system-out><![CDATA[Given user is on greencart landing page.....................................passed
+When user serarched for Brinjal vegetable...................................passed
+Then Brinjal results1 are displayed.........................................passed
+And add vestible to cart....................................................passed
+And close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

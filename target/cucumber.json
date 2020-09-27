@@ -1,0 +1,189 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-27T09:19:45.645Z",
+        "line": 18,
+        "name": "Search for items and validte results",
+        "description": "",
+        "id": "search-and-place-order-for-vegetabels;search-for-items-and-validte-results;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40724642792,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on greencart landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3466964559,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user serarched for Cucumber vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepDefinitions.user_serarched_for_vegetable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 768702633,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Cucumber results1 are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 0
+                }
+              ],
+              "location": "MyStepDefinitions.results1_are_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4314164044,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "add vestible to cart",
+            "match": {
+              "location": "MyStepDefinitions.add_vestible_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2431641807,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "close the browser",
+            "match": {
+              "location": "MyStepDefinitions.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-27T09:20:37.386Z",
+        "line": 19,
+        "name": "Search for items and validte results",
+        "description": "",
+        "id": "search-and-place-order-for-vegetabels;search-for-items-and-validte-results;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20687604558,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on greencart landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3409248374,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user serarched for Brinjal vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepDefinitions.user_serarched_for_vegetable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191695028,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Brinjal results1 are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 0
+                }
+              ],
+              "location": "MyStepDefinitions.results1_are_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4296794821,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "add vestible to cart",
+            "match": {
+              "location": "MyStepDefinitions.add_vestible_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2358701954,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "close the browser",
+            "match": {
+              "location": "MyStepDefinitions.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "search and place order for Vegetabels",
+    "description": "",
+    "id": "search-and-place-order-for-vegetabels",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/search.feature",
+    "tags": []
+  }
+]
